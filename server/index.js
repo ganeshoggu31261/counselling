@@ -19,7 +19,7 @@ app.post('/register',(req,res)=>{
 
 })
 
-app.get('/retrive', async (req,res)=>{
+app.get('/retrieve', async (req,res)=>{
     const result= await col.find().toArray()
     console.log(result)
     res.send(result)

@@ -111,7 +111,7 @@ export default function SignUp() {
                       <MenuItem value={1}>Student</MenuItem>
                       <MenuItem value={2}>Visitor</MenuItem>
                       <MenuItem value={3}>Counsellor</MenuItem>
-                      <MenuItem value={4}>51-60</MenuItem>
+                      <MenuItem value={4}>Admin</MenuItem>
                     </Select>
                   </FormControl>
               </Box> 
